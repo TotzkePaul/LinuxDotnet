@@ -1,5 +1,5 @@
 # LinuxDotnet
-Running an MVC proj on Ubuntu
+Running an MVC proj on Ubuntu VM that was developed on a Windows PC
 
 1. Install VirtualBox
 1. Install Unbuntu 14.04 64-bit PC (AMD64) server install image (8GB virtual hardrive)
@@ -11,6 +11,8 @@ Running an MVC proj on Ubuntu
 1. Configure [Samba](http://www.allaboutlinux.eu/how-to-install-samba-server-on-ubuntu/) for /home/paul/www 
 1. Publish VisualStudio project to \\WebServer\www\ 
 1. [Install .NET Core for Ubuntu 14.04](http://dotnet.github.io/getting-started/)
+1. Restore (dnu restore/dotnet restore)
+1. RUn (dnx web)
 
 
 
