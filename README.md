@@ -50,6 +50,8 @@ http://dotnet.github.io/getting-started/
 
 http://askubuntu.com/questions/640125/how-to-sudo-git-clone-and-safely-change-permission-to-another-user
 
+http://johnatten.com/2015/05/17/dnvm-dnx-and-dnu-understanding-the-asp-net-5-runtime-options/#Use-DNU-Restore-to-Restore-Packages
+
 Saved commands:
 
 dnvm use 1.0.0-rc1-update1 -p -r coreclr
