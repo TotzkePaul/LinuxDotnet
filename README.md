@@ -1,4 +1,13 @@
 # LinuxDotnet
+
+Goals:
+
+1. Create a new MVC Web project from the Visual Studio 2015 wizard on a Windows 10 machine. 
+2. Publish to an Ubuntu 14.04 VM on another computer (iMac OSX 10.11.3) in VirtualBox (v5.0.16)
+3. Run a script to build, restore and run the website
+4. The website is accessable to the original windows machine
+
+
 Running an MVC proj on Ubuntu VM that was developed on a Windows PC
 
 1. Install VirtualBox
@@ -14,7 +23,7 @@ Running an MVC proj on Ubuntu VM that was developed on a Windows PC
 1. Restore (dnu restore/dotnet restore)
 1. RUn (dnx web)
 
-Alternate: [run this script](https://github.com/TotzkePaul/LinuxDotnet/blob/master/dotnet.sh)
+Alternate: [run this script dotnet.sh](https://github.com/TotzkePaul/LinuxDotnet/blob/master/dotnet.sh)
 
 Extra links:
 
