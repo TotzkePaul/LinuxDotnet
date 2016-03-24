@@ -8,6 +8,17 @@ Goals:
 4. The website is accessable to the original windows machine
 
 
+Issues (Not all at the same time):
+
+1. Publishing using FTP breaks. "Microsoft.DNX.Publishing.targets(386,5): Error The given path's format is not supported". Using Samba to move files. 
+2. Core update 1 rc1 and Core update 1 rc2 can be very different.
+3. *.locked.json write access denied issues during dnu restore
+4. [Unable to resolve service for type 'IAssemblyLoadContextAccessor'](https://github.com/aspnet/dnx/issues/3032)
+5. [The authentication or decryption has failed](https://forums.xamarin.com/discussion/10405/the-authentication-or-decryption-has-failed-in-the-web-request)
+6. [dnu restore returns path error ''/.dnx/packages/Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final' is denied.'](http://stackoverflow.com/questions/34095014/dnu-restore-returns-path-error-users-account-name-dnx-packages-microsoft-a)
+
+
+
 Running an MVC proj on Ubuntu VM that was developed on a Windows PC
 
 1. Install VirtualBox
