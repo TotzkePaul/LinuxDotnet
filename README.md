@@ -14,7 +14,7 @@ Running an MVC proj on Ubuntu VM that was developed on a Windows PC
 1. Restore (dnu restore/dotnet restore)
 1. RUn (dnx web)
 
-
+Alternate: [run this script](https://github.com/TotzkePaul/LinuxDotnet/blob/master/dotnet.sh)
 
 Extra links:
 
